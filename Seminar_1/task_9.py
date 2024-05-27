@@ -11,6 +11,7 @@ my_str = "jhgfgkfk"
 for el in my_str:
     print(el, end=" ")
 
+
 i = 0
 while i < len(my_str):
     print(my_str[i], end=" ")
