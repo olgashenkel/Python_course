@@ -211,35 +211,65 @@
 # say_bye()
 
 # Скрытие перемнных:
-name = "Tom"
+# name = "Tom"
+#
+#
+# def say_hi():
+#     name = "Bob"
+#     print("Hello", name)
+#
+#
+# def say_bye():
+#     print("Good bye", name)
+#
+#
+# say_hi()
+# say_bye()
+#
+# # Изменение в локальной функции глобальной переменной с помощью global:
+#
+# name = "Tom"
+#
+#
+# def say_hi():
+#     global name
+#     name = "Bob"
+#     print("Hello", name)
+#
+#
+# def say_bye():
+#     print("Good bye", name)
+#
+#
+# say_hi()
+# say_bye()
+
+# УПРАЖНЕНИЯ:
+# Что выведет на консоль следующая программа:
+
+# 1)
+languagers = ["Java", "Python", "Javascript", "C++", "C#"]
+for lang in languagers[:]:
+    languagers.remove(lang)
+
+print(languagers)
+
+# 2)
+
+try:
+    letters = ["a", "b"]
+    print(letters[2])
+except (ValueError, IndexError):
+    print("Произошла ошибка")
 
 
-def say_hi():
-    name = "Bob"
-    print("Hello", name)
+
+# 3)
 
 
-def say_bye():
-    print("Good bye", name)
+numbers = [1, 2, 3, 4]
+for idx, item in enumerate(numbers):
+    del item
+print(numbers)
 
 
-say_hi()
-say_bye()
-
-# Изменение в локальной функции глобальной переменной с помощью global:
-
-name = "Tom"
-
-
-def say_hi():
-    global name
-    name = "Bob"
-    print("Hello", name)
-
-
-def say_bye():
-    print("Good bye", name)
-
-
-say_hi()
-say_bye()
