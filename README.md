@@ -44,3 +44,8 @@
 10. [Урок 10. Построение графиков]()
     * [Промежуточная аттестация]()
 
+
+---
+---
+
+[Практика](https://github.com/olgashenkel/Python_course/tree/main/Practice)
