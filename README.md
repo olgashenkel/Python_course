@@ -35,12 +35,9 @@
 6. [Урок 6. Повторение списков](https://github.com/olgashenkel/Python_course/tree/main/Seminar_6)
    * [Домашнее задание. Задача 1](https://github.com/olgashenkel/Python_course/blob/main/Seminar_6/DZ_1.py)
    * [Домашнее задание. Задача 2](https://github.com/olgashenkel/Python_course/blob/main/Seminar_6/DZ_2.py)
-
-[//]: # (7. [Урок 7. Функции высшего порядка]&#40;&#41;)
-
-[//]: # (   * [Домашнее задание. Задача 1]&#40;&#41;)
-
-[//]: # (   * [Домашнее задание. Задача 2]&#40;&#41;)
+7. [Урок 7. Функции высшего порядка]()
+   * [Домашнее задание. Задача 1](https://github.com/olgashenkel/Python_course/blob/main/Seminar_7/DZ_1.py)
+   * [Домашнее задание. Задача 2](https://github.com/olgashenkel/Python_course/blob/main/Seminar_7/DZ_2.py)
 
 [//]: # (8. [Урок 8. Работа с файлами]&#40;&#41;)
 
