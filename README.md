@@ -4,10 +4,8 @@
 1. [Урок 1. Знакомство с языком программирования Python](https://github.com/olgashenkel/Python_course/tree/main/Lesson_1)
 2. [Урок 2. Коллекции данных. Профилирование и отладка](https://github.com/olgashenkel/Python_course/tree/main/Lesson_2)
 3. [Урок 3. Функции, рекурсия, алгоритмы](https://github.com/olgashenkel/Python_course/tree/main/Lesson_3)
-
-[//]: # (4. [Урок 4. Функции высшего порядка, работа с файлами]&#40;https://github.com/olgashenkel/Python_course/tree/main/Lesson_4&#41;)
-
-[//]: # (5. [Урок 5. Google Colab&#40;Jupyter&#41;. Знакомство с аналитикой]&#40;https://github.com/olgashenkel/Python_course/tree/main/Lesson_5&#41;)
+4. [Урок 4. Функции высшего порядка, работа с файлами](https://github.com/olgashenkel/Python_course/tree/main/Lesson_4)
+5. [Урок 5. Google Colab&#40;Jupyter&#41;. Знакомство с аналитикой](https://github.com/olgashenkel/Python_course/tree/main/Lesson_5)
 
 ---
 ---
