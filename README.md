@@ -33,7 +33,7 @@
 6. [Урок 6. Повторение списков](https://github.com/olgashenkel/Python_course/tree/main/Seminar_6)
    * [Домашнее задание. Задача 1](https://github.com/olgashenkel/Python_course/blob/main/Seminar_6/DZ_1.py)
    * [Домашнее задание. Задача 2](https://github.com/olgashenkel/Python_course/blob/main/Seminar_6/DZ_2.py)
-7. [Урок 7. Функции высшего порядка]()
+7. [Урок 7. Функции высшего порядка](https://github.com/olgashenkel/Python_course/blob/main/Seminar_7)
    * [Домашнее задание. Задача 1](https://github.com/olgashenkel/Python_course/blob/main/Seminar_7/DZ_1.py)
    * [Домашнее задание. Задача 2](https://github.com/olgashenkel/Python_course/blob/main/Seminar_7/DZ_2.py)
 
