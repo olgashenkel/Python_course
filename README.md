@@ -36,10 +36,8 @@
 7. [Урок 7. Функции высшего порядка](https://github.com/olgashenkel/Python_course/blob/main/Seminar_7)
    * [Домашнее задание. Задача 1](https://github.com/olgashenkel/Python_course/blob/main/Seminar_7/DZ_1.py)
    * [Домашнее задание. Задача 2](https://github.com/olgashenkel/Python_course/blob/main/Seminar_7/DZ_2.py)
-
-[//]: # (8. [Урок 8. Работа с файлами]&#40;&#41;)
-
-[//]: # (   * [Домашнее задание]&#40;&#41;)
+8. [Урок 8. Работа с файлами](https://github.com/olgashenkel/Python_course/blob/main/Seminar_8)
+   * [Домашнее задание](https://github.com/olgashenkel/Python_course/blob/main/Seminar_8)
 
 [//]: # (9. [Урок 9. Работа с табличными данными]&#40;&#41;)
 
