@@ -196,7 +196,21 @@ def standart_write(file_name, res):
         f_w.writerows(res)
 
 
-# def copy_data():
+def copy_data(file_name):
+    request = input('''Вы действительно хотите копировать файл? 
+    Для подтверждения нажмите "Y", для отмены действия нажмите "N": ''').lower()
+    if request == 'y':
+        copy_data_name = input("Введите название файла: ") + ".csv"
+        while len(copy_data_name) < 5:
+            print("Имя файла не может быть пустым!")
+            copy_data_name = input("Введите название файла: ") + ".csv"
+        new_file = read_file(file_name)
+        standart_write(copy_data_name, new_file)
+        print(f"Файл {copy_data_name} успешно создан.")
+    elif request == 'n':
+        print("Копирование файла отменено! Выберите дальнейшее действие.")
+    else:
+        print('Ошибка! Команда не была распознана!\n Выберите дальнейшее действие.')
 
 
 file_name = 'phone.csv'
@@ -213,14 +227,19 @@ def main():
             write_file(file_name)
         elif command == 'r':
             if not exists(file_name):
-                print('Файл отсутсвует, пожалуйста создайте файл')
+                print('Файл отсутсвует, пожалуйста, создайте файл')
                 continue
             print(*read_file(file_name))
         elif command == 'd':
             if not exists(file_name):
-                print('Файл отсутсвует, пожалуйста создайте файл')
+                print('Файл отсутсвует, пожалуйста, создайте файл')
                 continue
             remove_row(file_name)
+        elif command == 'c':
+            if not exists(file_name):
+                print('Файл отсутсвует, пожалуйста, создайте файл')
+                continue
+            copy_data(file_name)
 
 
 main()
