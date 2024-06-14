@@ -2,7 +2,7 @@
 
 # Дан файл california_housing_train.csv.
 # Найти максимальное значение переменной "households" в зоне минимального значения
-# переменной min_population и сохраните это значение в переменную max_households_in_min_population.
+# переменной population и сохраните это значение в переменную max_households_in_min_population.
 # Используйте модуль pandas.
 ###############################################
 
@@ -10,9 +10,7 @@ from pandas import read_csv
 
 data = read_csv('california_housing_train.csv')
 
-# avg = data[data['population'] == 9]
-
-max_households_in_min_population = data[data['min_population'] == data['min_population'].min()]['households'].max()
+max_households_in_min_population = data[data['population'] == data['population'].min()]['households'].max()
 
 print(max_households_in_min_population)
 
