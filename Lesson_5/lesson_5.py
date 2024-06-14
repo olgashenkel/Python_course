@@ -16,16 +16,15 @@ df = pd.read_csv('sample_data/california_housing_train.csv', sep=';')
 # если так и должно быть, аргумент sep можно не выставлять,
 # вместо ; можно поставить другой разделитель)
 
-df.head(n = 10)
+df.head(n=10)
 # с помощью функции head - считываем данные таблицы
 # n = 10 -> выводится 10 строк таблицы (отсчет начинается с 0. Можно задать больше или меньше значений строк)
 
-df.tail(n = 5)
+df.tail(n=5)
 # функция tail - выводит последние элементы (в данном слачае n = 5 (т.е. 5 элементов))
 
 df.shape
 # функция shape - позволяет посмотреть общий размер таблицы (количество строк, столбцов)
-
 
 
 df.isnull()
@@ -122,7 +121,7 @@ DataFrame(таблицу)**. Чтобы изобразить отношения 
 """
 
 import seaborn as sns
-
+# pip install seaborn - установка модуля seaborn
 """Изображение точек долготы по отношению к широте:"""
 
 sns.scatterplot(data=df, x="longitude", y="latitude")
@@ -170,7 +169,7 @@ sns.relplot(x="latitude", y="median_house_value", kind="line", data=df)
 в чем же дело, почему цена так резко подскакивает.
 """
 
-sns.relplot(x = 'longitude', y = 'median_house_value', kind = 'line', data = df)
+sns.relplot(x='longitude', y='median_house_value', kind='line', data=df)
 
 """Можно видеть, что в определенных местах широты цена за дома также очень
 высока.
@@ -199,7 +198,7 @@ sns.histplot(data=df, x="median_income")
 Изобразим гистограмму по housing_median_age.
 """
 
-sns.histplot(data = df, x = 'housing_median_age')
+sns.histplot(data=df, x='housing_median_age')
 
 """Распределение по возрасту более равномерное. Большую часть жителей
 составляют люди в возрасте от 20 до 40 лет. Но и молодежи не мало. Также очень
@@ -208,7 +207,7 @@ sns.histplot(data = df, x = 'housing_median_age')
 Давайте посмотрим медианный доход у пожилых жителей.
 """
 
-sns.histplot(data=df[df['housing_median_age']>50], x="median_income")
+sns.histplot(data=df[df['housing_median_age'] > 50], x="median_income")
 
 """Большого отличия от популяции в целом не наблюдается. Скорее всего это местные
 жители.
